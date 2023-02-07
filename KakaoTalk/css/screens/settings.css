@@ -1,0 +1,26 @@
+.settings__description {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__description i {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.settings__description-column-version:last-child {
+  color: var(--color-gray);
+  font-size: 13px;
+}
+
+.settings__description-column-version {
+  padding-bottom: 30px;
+}
+
+.settings__description-column-privacy {
+  padding-top: 30px;
+}

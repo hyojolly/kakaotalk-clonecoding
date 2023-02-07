@@ -1,0 +1,9 @@
+:root {
+  --color-gray: gray;
+  --color-dimgray: dimgray;
+  --color-darkgray: darkgray;
+  --color-lightgray: lightgray;
+  --color-black: black;
+  --color-yellow: #fae100;
+  --horizontal-space: 25px;
+}

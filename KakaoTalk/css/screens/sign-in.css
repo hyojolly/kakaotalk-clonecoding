@@ -1,0 +1,57 @@
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcom-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.welcome-header__description {
+  width: 60%;
+  color: var(--color-dimgray);
+}
+
+#signin-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#signin-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+#signin-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#signin-form input::placeholder {
+  color: var(--color-darkgray);
+}
+
+#signin-form input:focus {
+  border-color: var(--color-yellow);
+}
+
+#signin-form input[type="submit"] {
+  background-color: var(--color-yellow);
+  cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+#signin-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 10px;
+}
